@@ -127,3 +127,15 @@ The following Event IDs were frequently observed:
 
 
 
+
+![PowerShell Screenshot 2](Powershell-screenshot2.jpg)
+
+
+
+
+
+
+
+
+
+
