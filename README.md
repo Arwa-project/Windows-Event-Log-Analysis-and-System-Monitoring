@@ -158,6 +158,72 @@ The output is displayed in the screenshot.
 
 
 
+## Non-.evtx Log Files
+
+### Identified Log Files
+The non-.evtx log files identified in the output are as follows:
+
+- **setupact.log**: Located in `C:\$WINDOWS.~BT\Sources\Panther`
+- **setuperr.log**: Located in `C:\$WINDOWS.~BT\Sources\Panther`
+- **COPYING.LGPLv2.1.txt**: Located in `C:\Program Files\Adobe\Acrobat DC\Acrobat\AcroCEF`
+- **LICENSE.txt**: Located in `C:\Program Files\Adobe\Acrobat DC\Acrobat\AcroCEF`
+- **commit.txt**: Located in `C:\Program Files\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\app1`
+- **version.txt**: Located in `C:\Program Files\Adobe\Acrobat DC\Acrobat\WebResources\Resource0\OWP\default`
+- Other `.txt` files related to Adobe Acrobat (e.g., `symbol.txt`, `zdingbat.txt`) and various language files (`.txt`) in the `C:\Program Files\Autopsy-4.21.0\autopsy\7-Zip\Lang` directory.
+- **TableTextServiceYi.txt**: Likely contains text data related to a specific service or process.
+- **about_BeforeEach_AfterEach.help.txt**: Appears to be a help document, providing information or instructions regarding certain functions or commands.
+
+---
+
+### Error Messages in the Files
+To assess whether there are any error messages in the log files, it is necessary to open and review the contents of `setupact.log`, `setuperr.log`, and other pertinent log files:
+
+- **setuperr.log**: Could include error messages related to problems encountered during Windows installation or updates. The file has a size of 0 bytes, suggesting it contains no messages.
+- **setupact.log**: Likely offers a comprehensive record of the actions executed during the setup, along with any warnings or errors. This file has data (6825 bytes), indicating it should be examined for possible messages or warnings.
+
+Although there are no apparent errors in the identified text files, further scrutiny of `setupact.log` is necessary to ensure no critical issues are missed.
+
+---
+
+### Comparison of Non-.evtx Logs and .evtx Logs
+
+#### Detail:
+- **.evtx Files**:
+  - Provide comprehensive information, including timestamps, event IDs, sources, and detailed descriptions of events.
+  - Useful for thorough diagnostics and system behavior analysis.
+
+- **Non-.evtx Files**:
+  - Provide less detailed information. For example:
+    - `setupact.log` and `setuperr.log` might contain setup-related information.
+    - `setuperr.log` has a size of 0 bytes, indicating no messages.
+    - `.txt` files like `LICENSE.txt` and `about_BeforeEach_AfterEach.help.txt` often contain instructions or help content rather than critical system logs.
+
+#### Structure:
+- **.evtx Files**:
+  - Stored in a binary format designed for Windows Event Viewer.
+  - Allow users to filter, search, and analyze logs based on structured data points.
+
+- **Non-.evtx Files**:
+  - Text-based and may lack structured formatting.
+  - Example: `setupact.log` may have some structure, but `.txt` files like `LICENSE.txt` are usually unstructured, making quick analysis challenging.
+
+#### Summary:
+Non-.evtx log files offer less detail and organization than .evtx files. Their simpler plain text format makes them more accessible but less effective for in-depth troubleshooting tasks.
+
+---
+
+## Part 3: Presence or Absence of Event Log Indicators
+
+(Summarize any identified indicators in this section.)
+
+---
+
+This Markdown can be used directly in a GitHub README file. Just ensure all the log files are correctly uploaded and referenced in the same repository.
+
+
+
+
+
 
 
 
