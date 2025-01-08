@@ -125,23 +125,10 @@ Get-ChildItem -Path C:\ -Recurse -Include *.log, *.txt, *.csv -ErrorAction Silen
 The output is displayed in the screenshot below:
 
 
-
-![PowerShell Screenshot 1](Powershell-screenshot1.jpg)
-
+![PowerShell Screenshot 1](images/Powershell-screenshot1.jpg)
 
 
-
-
-
-![PowerShell Screenshot 2](Powershell-screenshot2.jpg)
-
-
-
-
-
-
-
-
+![PowerShell Screenshot 2](images/Powershell-screenshot2.jpg)
 
 
 
