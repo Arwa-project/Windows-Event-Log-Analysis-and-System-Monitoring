@@ -120,6 +120,7 @@ The following Event IDs were frequently observed:
 ### 1. What types of logs did you find that weren’t .evtx files?
 
 
+
 ![PowerShell Screenshot 1](powershell1.jpg)
 
 
@@ -142,17 +143,6 @@ The following Event IDs were frequently observed:
 
 
 ![PowerShell Screenshot 2](Powershell-screenshot2.jpg)
-
-
-
-
-
-The following command was executed to locate non-.evtx files:  
-```powershell
-Get-ChildItem -Path C:\ -Recurse -Include *.log, *.txt, *.csv -ErrorAction SilentlyContinue
-
-The output is displayed in the screenshot.
-
 
 
 
@@ -219,6 +209,7 @@ Non-.evtx log files offer less detail and organization than .evtx files. Their s
 ---
 
 This Markdown can be used directly in a GitHub README file. Just ensure all the log files are correctly uploaded and referenced in the same repository.
+
 
 
 
