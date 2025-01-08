@@ -1,9 +1,38 @@
 # Windows-Event-Log-Analysis-and-System-Monitoring
 # Event Log Analysis and Insights
 
-## Part 1: Event Log Observations and Analysis
+# Lab: Analyzing Windows Event Logs
 
-### Questions for Reflection
+## Objectives
+This lab will guide you through the process of:
+1. Examining existing event logs.
+2. Locating and examining event logs that are not in `.evtx` format.
+3. Summarizing the presence or absence of event log indicators on your system.
+
+By the end of this exercise, you will gain hands-on experience in analyzing Windows event logs for system and security monitoring.
+
+---
+
+## Pre-requisites
+To successfully complete this lab, you should have:
+- Basic knowledge of the Windows operating system.
+- Familiarity with using the Command Prompt or PowerShell.
+- Access to a Windows computer with administrative privileges.
+
+---
+
+## Materials Needed
+- **A Windows computer** (Windows 10 or later is preferred).
+- **Notebook or text editor** for taking notes and documenting observations.
+
+
+
+
+
+
+
+
+## Part 1: Event Log Observations and Analysis
 
 #### 1. Which event types (Error, Warning, Information) are most frequent?
 **Warnings:**
