@@ -128,7 +128,38 @@ The following Event IDs were frequently observed:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![PowerShell Screenshot 2](Powershell-screenshot2.jpg)
+
+
+
+
+
+The following command was executed to locate non-.evtx files:  
+```powershell
+Get-ChildItem -Path C:\ -Recurse -Include *.log, *.txt, *.csv -ErrorAction SilentlyContinue
+
+The output is displayed in the screenshot.
+
+
+
+
+
+
+
+
 
 
 
