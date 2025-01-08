@@ -89,10 +89,40 @@ Warnings were frequent from these sources:
 
 
 
+---
+
+#### 2. What are some common Event IDs that you observed?
+The following Event IDs were frequently observed:
+- **10016** – DistributedCOM  
+- **219** – Kernel-PnP  
+- **6155** – LSA (LsaSrv)  
+- **10317** – Source unknown  
+- **13** – SurfaceTconDriver  
+- **1** – VMnetDHCP  
+- **8265** – EnhancedPhishingProtection  
+- **700, 701** – Win32k  
+
+---
+
+#### 3. Did you notice any recurring issues or patterns?
+- **DistributedCOM warnings and errors (Event ID: 10016)** were highly frequent, indicating potential permission-related issues.  
+- **VMnetDHCP warnings (Event ID: 1)** were repeated often, pointing to possible issues with virtual network services like VMware or VirtualBox.  
+- **Kernel-PnP warnings (Event ID: 219)** and **Kernel-Power critical errors** may indicate device connectivity or power management problems.  
+- **LsaSrv (LSA)** warnings suggest potential issues with the Local Security Authority Subsystem.  
+- Recurring **SurfaceTconDriver errors (Event ID: 13)** may point to hardware or driver-related issues involving display or communication drivers.  
+- Multiple warnings and errors from sources such as **Win32k**, **LsaSrv**, and **Service Control Manager** indicate potential system instability involving key services or drivers.
+
+--- 
 
 
+## Part 2: Locate and Examine Event Logs That Are Not `.evtx` Files
 
+### 1. What types of logs did you find that weren’t .evtx files?
+The following command was executed to locate non-.evtx files:  
+```powershell
+Get-ChildItem -Path C:\ -Recurse -Include *.log, *.txt, *.csv -ErrorAction SilentlyContinue 
 
+The output is displayed in the screenshot below:
 
 
 
