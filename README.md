@@ -118,14 +118,9 @@ The following Event IDs were frequently observed:
 ## Part 2: Locate and Examine Event Logs That Are Not `.evtx` Files
 
 ### 1. What types of logs did you find that weren’t .evtx files?
-The following command was executed to locate non-.evtx files:  
-```powershell
-Get-ChildItem -Path C:\ -Recurse -Include *.log, *.txt, *.csv -ErrorAction SilentlyContinue 
-
-The output is displayed in the screenshot below:
 
 
-
+![PowerShell Screenshot 1](powershell1.jpg)
 
 
 
