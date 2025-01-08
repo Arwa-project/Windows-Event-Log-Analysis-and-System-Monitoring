@@ -203,10 +203,19 @@ In summary, non-.evtx log files offer less detail and organization than `.evtx` 
  
 
 
+![Indicators 1](Indicators1.jpg)
 
 
 
 
+
+![Indicator 2](Indicator2.jpg)
+
+
+
+
+
+![Event Viewer](EventViwer.jpg)
 
 
 
