@@ -40,7 +40,7 @@ Warnings were frequent from these sources:
   - **Win32k**
 
 
-
+![Event Logs Screenshot](Eventlogs-screenshot1.jpg)
 
 
 
