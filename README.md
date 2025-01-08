@@ -28,10 +28,6 @@ To successfully complete this lab, you should have:
 
 
 
-
-
-
-
 ## Part 1: Event Log Observations and Analysis
 
 #### 1. Which event types (Error, Warning, Information) are most frequent?
@@ -42,3 +38,22 @@ Warnings were frequent from these sources:
   - **LsaSrv (LSA)**  
   - **Kernel-PnP (Event ID: 219)**  
   - **Win32k**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
