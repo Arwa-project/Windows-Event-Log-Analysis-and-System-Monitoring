@@ -71,6 +71,38 @@ Warnings were frequent from these sources:
 
 
 
+**Errors:**
+- Frequent Errors were seen from:  
+  - **DistributedCOM (Event ID: 10016)** – appeared more than 10 times.  
+  - **SurfaceTconDriver (Event ID: 13)** – occurred more than 10 times.  
+  - **Service Control Manager** (Event ID unknown).  
+
+**Critical:**
+- Critical events from **Kernel-Power** appeared 3 times.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
