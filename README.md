@@ -126,9 +126,14 @@ The output is displayed in the screenshot below:
 
 
 
+![PowerShell Screenshot 1](Powershell-screenshot1.jpg)
 
 
 
+
+
+
+![PowerShell Screenshot 2](Powershell-screenshot2.jpg)
 
 
 
